@@ -1,0 +1,17 @@
+@charset 'UTF-8';
+
+@import "./common/function";
+@import "./common/mixin";
+@import "./common/common";
+@import "./common/diy";
+@import "./views/error";
+@import "./fix/page";
+@import "./fix/iview";
+@import "./fix/viewer";
+@import "./fix/scroll-bar";
+@import "./component/image";
+@import "./component/animation";
+@import "./component/image";
+@import "./component/animation";
+// 第三方css
+@import "~view-design/dist/styles/iview.css";

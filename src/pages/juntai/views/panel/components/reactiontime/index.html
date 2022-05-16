@@ -1,0 +1,61 @@
+<div class="reactiontime">
+    <div class="reactiontime-header">
+        <div class="reactiontime-header-text">
+            <div class="reactiontime-header-text-process" @click="isTime = false">执行过程评估</div>
+            <div class="reactiontime-header-text-time" @click="isTime = true">入侵目标发现时间</div>
+        </div>
+        <div class="reactiontime-header-underline">
+            <div class="reactiontime-header-underline-process" :style="!isTime ? 'visibility: visible' : 'visibility: hidden'"></div>
+            <div class="reactiontime-header-underline-time" :style="isTime ? 'visibility: visible' : 'visibility: hidden'"></div>
+        </div>
+    </div>
+    <div class="reactiontime-content">
+        <div class="reactiontime-content-time" v-if="isTime">
+            <div class="reactiontime-content-time-item" v-for="(item, index) in findTimeResult" :key="index">
+                &diams;&emsp;{{ item }}
+            </div>
+        </div>
+        <div class="reactiontime-content-item" v-if="!isTime">
+            <div class="reactiontime-content-item-greenborder">
+                <div class="reactiontime-content-item-greenborder-text">
+                    <p class="num">{{ processResult[0].value }}<span class="unit">{{ processResult[0].unit }}</span></p>
+                    <p class="label">{{ processResult[0].name }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="reactiontime-content-item" v-if="!isTime">
+            <div class="reactiontime-content-item-orangeborder">
+                <div class="reactiontime-content-item-orangeborder-text">
+                    <p class="num">{{ processResult[1].value }}<span class="unit">{{ processResult[1].unit }}</span></p>
+                    <p class="label">{{ processResult[1].name }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="reactiontime-content-item" v-if="!isTime">
+            <div class="reactiontime-content-item-redborder">
+                <div class="reactiontime-content-item-redborder-text">
+                    <p class="num">{{ processResult[2].value }}<span class="unit">{{ processResult[2].unit }}</span></p>
+                    <p class="label">{{ processResult[2].name }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="reactiontime-content-item" v-if="!isTime">
+            <div class="reactiontime-content-item-blueborder">
+                <div class="reactiontime-content-item-blueborder-text">
+                    <p class="num">{{ processResult[3].value }}<span class="unit">{{ processResult[3].unit }}</span></p>
+                    <p class="label">{{ processResult[3].name }}</p>
+                </div>
+            </div>
+        </div>
+        <!-- <div v-if="!isTime" class="reactiontime-content-longitem">
+            <div class="reactiontime-content-longitem-redborder">
+                <div class="reactiontime-content-longitem-redborder-text">
+                    <p class="num">{{ processResult[2].value }}</p>
+                    <p class="label">{{ processResult[2].name }}</p>
+                </div>
+            </div>
+        </div> -->
+        <!-- <div v-if="isTime" class="reactiontime-content-timeicon"></div> -->
+        <div v-if="!isTime" class="reactiontime-content-processicon"></div>
+    </div>
+</div>

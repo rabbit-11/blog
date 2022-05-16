@@ -1,0 +1,10 @@
+{
+  "juntai": {
+    "name": "juntai",
+    "entry": "src/pages/juntai/main.ts",
+    "template": "public/index.html",
+    "filename": "index.html",
+    "title": "面板",
+    "chunks": ["chunk-vendors", "chunk-common", "juntai"]
+  }
+}

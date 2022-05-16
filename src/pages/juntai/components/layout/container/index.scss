@@ -1,0 +1,14 @@
+body {
+  background-color: rgba(16,16,16,1);
+}
+
+.container {
+  @include size(100%, 100%);
+  user-select: none;
+  
+  cursor: default;
+
+  * {
+    color: white;
+  }
+}

@@ -1,0 +1,229 @@
+/**
+ *
+ * 二级标题
+ */
+.sub-title {
+  font-size: 0.18rem;
+  padding-left: 0.14rem;
+  font-weight: 600;
+  position: relative;
+  margin-bottom: 0.23rem;
+  line-height: 1;
+
+  &:before {
+    @include absolute(50%, unset, unset, 0);
+    @include size(0.04rem, 0.16rem);
+    content: "";
+    transform: translateY(-0.075rem);
+    background-color: #4b78ec;
+  }
+}
+
+/**
+ *
+ * 查询条件
+ */
+.query-condition {
+  @include size(100%, auto);
+  padding: 0.2rem 0.2rem 0;
+  color: #333333;
+}
+
+.ivu-form {
+  .ivu-form-item-label {
+    font-size: 0.14rem;
+  }
+}
+.ivu-input {
+  // color: #333;
+  outline: none;
+
+  &::placeholder {
+    color: rgba(204, 204, 204, 1);
+    font-size: 0.14rem;
+  }
+
+  &:hover,
+  &:focus {
+    border-color: #57a3f3;
+    outline: 0;
+    box-shadow: 0 0 0 2px rgba(45, 140, 240, 0.2);
+  }
+}
+
+/**
+ *
+ * button样式
+ */
+.single-page-con {
+  .ivu-btn {
+    font-size: 0.14rem;
+    width: 0.9rem;
+    border-radius: 2px;
+  }
+  .ivu-btn-primary {
+    background-color: #333;
+    border: 1px solid #333;
+  }
+  .ivu-btn-reset {
+    border: 1px solid #999;
+    background-color: #999;
+  }
+}
+
+/**
+ *
+ * table 样式
+ */
+.diy-table {
+  border: 0;
+
+  .ivu-table:before,
+  .ivu-table:after {
+    content: none;
+  }
+
+  .ivu-table-wrapper {
+    border: none;
+  }
+
+  .ivu-table-body {
+    table tr:nth-child(even) {
+      td {
+        background-color: rgba(221, 235, 245, 0.5);
+      }
+    }
+
+    table td {
+      border: 0;
+      height: 0.5rem;
+
+      .ivu-table-cell span {
+        @include ellipsis();
+        font-size: 0.14rem;
+        color: #505969;
+        font-weight: 500;
+      }
+
+      // 修复 iview table 使用 tooltip 属性 文字不居中问题
+      .ivu-table-cell .ivu-table-cell-tooltip {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+
+  .ivu-table-tip {
+    overflow-x: hidden;
+
+    table {
+      td {
+        border: 0;
+        color: #354052;
+        border-bottom: 0px solid rgba(255, 255, 255, 0);
+      }
+    }
+  }
+
+  .ivu-table-header table th {
+    border-right: 0;
+    border-bottom: 0;
+    color: #354052;
+    font-size: 0.14rem;
+    font-weight: 600;
+    height: 0.5rem;
+    background: #ddebf5;
+  }
+}
+
+/**
+ *
+ * table 操作按钮
+ */
+.icon-btn {
+  @include size(0.2rem, 0.2rem);
+  margin-right: 0.1rem;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/**
+ *
+ * table 操作按钮背景图片
+ */
+.icon-detail {
+  @include bg-img("~@/assets/images/icon/icon-detail.svg");
+}
+
+.icon-edit {
+  @include bg-img("~@/assets/images/icon/icon-edit.svg");
+}
+
+.icon-disable {
+  @include bg-img("~@/assets/images/icon/icon-disable.svg");
+}
+
+.icon-enable {
+  @include bg-img("~@/assets/images/icon/icon-enable.svg");
+}
+
+.icon-delete {
+  @include bg-img("~@/assets/images/icon/icon-delete.svg");
+}
+
+/**
+ *
+ * table列表无数据时默认图片
+ */
+.no-data-bg {
+  @include bg-img("~@/assets/images/empty_result.svg");
+  @include size(3rem, 3rem);
+  margin: auto;
+}
+
+/**
+ *
+ * 分页组件
+ */
+.diy-page {
+  @include flex(row, flex-end, center);
+}
+
+/**
+ *
+ * 弹框
+ */
+.ivu-modal-header,
+.ivu-modal-footer {
+  border: 0;
+}
+
+/**
+ *
+ * 详情字段名
+ */
+.detail-label {
+  font-size: 0.16rem;
+  font-weight: 600;
+}
+
+// 图片展开动画
+.in {
+  animation: clipRectIn 1s;
+}
+@keyframes clipRectIn {
+  0% {
+    clip-path: inset(50% round 10% 50%);
+    // clip-path: circle(0 at 50% 50%);
+    // clip-path: polygon(50% 100%, 50% 0%, 0% 0%, 100% 0%, 50% 0%);
+  }
+  // 50% {
+  //   clip-path: polygon(50% 100%, 0% 0%, 0% 0%, 100% 0%, 100% 0%);
+  // }
+  100% {
+    clip-path: inset(0% round 0);
+    // clip-path: circle(200px at 50% 50%);
+    // clip-path: polygon(50% 100%, 0% 100%, 0% 0%, 100% 0%, 100% 100%);
+  }
+}

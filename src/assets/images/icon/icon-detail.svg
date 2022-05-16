@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="16px" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-详情</title>
+    <desc>Created with Sketch.</desc>
+    <g id="组件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="操作图标-启用" transform="translate(0.000000, -2.000000)" fill="#127FFF">
+            <g id="分组-22">
+                <g id="icon-详情">
+                    <g id="xiangqing" stroke-width="1" transform="translate(0.000000, 2.000000)">
+                        <path d="M1.93515453e-16,8 C1.35353606e-16,9.1045695 0.8954305,10 2,10 C3.1045695,10 4,9.1045695 4,8 C4,6.8954305 3.1045695,6 2,6 C0.8954305,6 1.35353606e-16,6.8954305 1.93515453e-16,8 Z" id="路径" fill-rule="nonzero"></path>
+                        <path d="M2,12 C0.886075947,12 0,12.9002976 0,14 C0,15.0997024 0.900967992,16 2,16 C3.09903201,16 4,15.0997024 4,14 C4,12.9002976 3.11243485,12 2,12 Z" id="路径" fill-rule="nonzero"></path>
+                        <path d="M1.93515453e-16,2 C1.35353606e-16,3.1045695 0.8954305,4 2,4 C3.1045695,4 4,3.1045695 4,2 C4,0.8954305 3.1045695,6.76353751e-17 2,0 C0.8954305,-6.76353751e-17 1.35353606e-16,0.8954305 1.93515453e-16,2 Z" id="路径" fill-rule="nonzero"></path>
+                    </g>
+                    <rect id="矩形" x="6" y="2" width="14" height="4" rx="2"></rect>
+                    <rect id="矩形-copy" x="6" y="8" width="14" height="4" rx="2"></rect>
+                    <rect id="矩形-copy-2" x="6" y="14" width="14" height="4" rx="2"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

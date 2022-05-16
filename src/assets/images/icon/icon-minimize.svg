@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="21px" viewBox="0 0 20 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>最下化</title>
+    <defs>
+        <path d="M14.5,1.5881765 L0.5,1.5881765 C0.2,1.5881765 0,1.2705412 0,0.794088252 L0,0.794088252 C0,0.317635301 0.2,0 0.5,0 L14.5,0 C14.8,0 15,0.317635301 15,0.794088252 L15,0.794088252 C15,1.2705412 14.8,1.5881765 14.5,1.5881765 Z" id="path-1"></path>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="兼容管控" transform="translate(-1784.000000, -34.000000)">
+            <g id="编组-38" transform="translate(-0.461667, -1.000000)">
+                <g id="编组-43" transform="translate(1689.461667, 33.456653)">
+                    <g id="Icon-Button" transform="translate(95.000000, 2.500000)">
+                        <path d="M2,0 L18,0 C19.1045695,-2.02906125e-16 20,0.8954305 20,2 L20,18 C20,19.1045695 19.1045695,20 18,20 L2,20 C0.8954305,20 1.3527075e-16,19.1045695 0,18 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="bg" fill-opacity="0" fill="#FFFFFF"></path>
+                        <g id="icon" transform="translate(2.222222, 9.222222)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="color" fill="#FFFFFF" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,85 @@
+@charset 'UTF-8';
+@import "../common/var";
+
+/* --------------------------------------------
+            1、 自定义选择框样式
+---------------------------------------------*/
+.i-select-1 {
+    width: unset;
+    
+    .ivu-select-selection {
+        border: none;
+        box-shadow: none;
+        background-color: transparent;
+        span {
+            color: $font-color-g;
+        }
+    }
+    .ivu-select-dropdown {
+        min-width: 0.9rem;
+        background-color: rgba(47, 47, 47, 0.9);
+        .ivu-select-item {
+            color: $font-color-g;
+            &.ivu-select-item-focus {
+                background-color: rgba(99, 91, 91, 0.8);
+            }
+            &:hover {
+                background: rgba(0, 188, 212, 0.4);
+            }
+        }
+    }
+}
+// /* ---------------------------------------------
+//             * 修正iView table宽度 *
+// ---------------------------------------------*/
+// .ivu-table-wrapper{
+//     .ivu-table{
+//         table{
+//             width:100%;
+//         }
+//     }
+// }
+// /* ---------------------------------------------
+//             * 修正iView table表格风格 *
+// ---------------------------------------------*/
+// .ivu-table-cell{
+//     padding-left: 5px!important;
+//     padding-right: 5px!important;
+// }
+// /* ---------------------------------------------
+//             * 修正iView form-item label的间距 *
+// ---------------------------------------------*/
+// .ivu-form-label-right{
+//     .ivu-form-item-label{
+//         padding-left:0px!important;
+//     }
+
+// }
+// .ivu-form-label-left{
+//     .ivu-form-item-label{
+//         padding-right:0px!important;
+//     }
+// }
+// /* ---------------------------------------------
+//             * 修正iView poptip的宽度 *
+// ---------------------------------------------*/
+// .ivu-poptip{
+//     width:100%;
+//     .ivu-poptip-rel{
+//         width:100%;
+//     }
+// }
+// /* ---------------------------------------------
+//             * 修正iView 分页切换页面大小下拉框的宽度 *
+// ---------------------------------------------*/
+// .ivu-page-options{
+//     .ivu-select-dropdown{
+//         width:auto;
+//     }
+// }
+// /* ---------------------------------------------
+//             * 修改spin加载蒙层样式 *
+// ---------------------------------------------*/
+// .ivu-spin{
+//     background: rgba(255, 255, 255, 0);
+// }

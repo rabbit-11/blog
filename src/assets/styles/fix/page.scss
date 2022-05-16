@@ -1,0 +1,19 @@
+@charset 'UTF-8';
+
+// /* ---------------------------------------------
+//             * 修正每个页面高度适应屏幕 *
+// ---------------------------------------------*/
+
+.single-page-con {
+    & > .single-page {
+        width: 100%;
+        height: 100%;
+        margin: 0!important;
+        & > .page-container {
+            height: 100%;            
+            & > div{
+                height: 100%;
+            }
+        }
+    } 
+}

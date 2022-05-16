@@ -1,0 +1,63 @@
+<div class="perception">
+    <div class="perception-header">
+        <p>综合态势认知评估</p>
+        <span class="perception-header-time">{{ nowTime }}</span>
+    </div>
+    <div class="perception-content">
+        <div class="perception-content-position">
+            <div class="perception-content-position-item">
+                <div class="perception-content-position-item-num">{{ fusionResult.currentLocationError === '--' ? '--' : fusionResult.currentLocationError.toFixed(2) }}<span class="perception-content-position-item-num-unit">&ensp;m</span></div>
+                <div class="perception-content-position-item-label">当前定位误差</div>
+            </div>
+            <div class="perception-content-position-item">
+                <div class="perception-content-position-item-num">{{ fusionResult.addUpLocationError === '--' ? '--' : fusionResult.addUpLocationError.toFixed(2) }}<span class="perception-content-position-item-num-unit">&ensp;m</span></div>
+                <div class="perception-content-position-item-label">累计定位误差</div>
+            </div>
+            <div class="perception-content-position-item">
+                <div class="perception-content-position-item-num">{{ fusionResult.currentSpeedDirectionError === '--' ? '--' : fusionResult.currentSpeedDirectionError.toFixed(2) }}<span class="perception-content-position-item-num-unit">&ensp;度</span></div>
+                <div class="perception-content-position-item-label">当前速度方向误差</div>
+            </div>
+            <div class="perception-content-position-item">
+                <div class="perception-content-position-item-num">{{ fusionResult.addUpSpeedDirectionError === '--' ? '--' : fusionResult.addUpSpeedDirectionError.toFixed(2) }}<span class="perception-content-position-item-num-unit">&ensp;度</span></div>
+                <div class="perception-content-position-item-label">累计速度方向误差</div>
+            </div>
+            <div class="perception-content-position-item">
+                <div class="perception-content-position-item-num">{{ fusionResult.currentSpeedError === '--' ? '--' : fusionResult.currentSpeedError.toFixed(2) }}<span class="perception-content-position-item-num-unit">&ensp;m/s</span></div>
+                <div class="perception-content-position-item-label">当前速度大小误差</div>
+            </div>
+            <div class="perception-content-position-item">
+                <div class="perception-content-position-item-num">{{ fusionResult.addUpSpeedError === '--' ? '--' : fusionResult.addUpSpeedError.toFixed(2) }}<span class="perception-content-position-item-num-unit">&ensp;m/s</span></div>
+                <div class="perception-content-position-item-label">累计速度大小误差</div>
+            </div>
+        </div>
+        <div class="perception-content-count">
+            <div class="perception-content-count-time">
+                <span class="perception-content-count-time-label">任务开始时间:</span>{{ fusionResult.startTime }}
+                <!-- <span class="perception-content-count-time-unit">s</span> -->
+            </div>
+            <div class="perception-content-count-num">
+                <p>{{ fusionResult.currentTargetNumber }}</p>
+            </div>
+            <div class="perception-content-count-label">态势处理批次数</div>
+        </div>
+        <div class="perception-content-rate">
+            <div class="perception-content-rate-item">
+                <div class="perception-content-rate-item-greennum"><p>{{ fusionResult.currentFalseAlarmProbability === '--' ? '--' : fusionResult.currentFalseAlarmProbability.toFixed(2) }}%</span></p></div>
+                <div class="perception-content-rate-item-label">当前虚警率</div>
+            </div>
+            <div class="perception-content-rate-item">
+                <div class="perception-content-rate-item-bluenum"><p>{{ fusionResult.addUpFalseAlarmProbability === '--' ? '--' : fusionResult.addUpFalseAlarmProbability.toFixed(2) }}%</span></p></div>
+                <div class="perception-content-rate-item-label">累计虚警率</div>
+            </div>
+            <div class="perception-content-rate-item">
+                <div class="perception-content-rate-item-orangenum"><p>{{ fusionResult.currentOmissionAlarmProbability === '--' ? '--' : fusionResult.currentOmissionAlarmProbability.toFixed(2) }}%</span></p></div>
+                <div class="perception-content-rate-item-label">当前漏警率</div>
+            </div>
+            <div class="perception-content-rate-item">
+                <div class="perception-content-rate-item-rednum"><p>{{ fusionResult.addUpOmissionAlarmProbability === '--' ? '--' : fusionResult.addUpOmissionAlarmProbability.toFixed(2) }}%</span></p></div>
+                <div class="perception-content-rate-item-label">累计漏警率</div>
+            </div>
+        </div>
+        
+    </div>
+</div>

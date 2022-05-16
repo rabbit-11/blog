@@ -1,0 +1,292 @@
+[33mcommit 46bf26839ea1dad9eb89e881da8c03db55817bcd[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 01a1138 3878e1c
+Author: yingzigo <cywhdx@163.com>
+Date:   Fri Sep 25 13:39:42 2020 +0800
+
+    代码合并
+
+[33mcommit 01a1138118cb7cafdc8ae94e18e914390c62f5e3[m
+Merge: 8558824 6651651
+Author: yingzigo <cywhdx@163.com>
+Date:   Tue Aug 18 09:21:36 2020 +0800
+
+    Merge branch 'master' of https://code.aliyun.com/egova-zhiton/egova-portal-web
+
+[33mcommit 85588244eea28e03928bba4c5cd9f6bf55894a37[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Tue Aug 18 09:21:16 2020 +0800
+
+    新加组件
+
+[33mcommit 665165102d15b34db0a7bdc3d484ad12cee2d9fb[m
+Author: denglichuan <denglichuan@juntaiits.com.cn>
+Date:   Mon Aug 17 23:36:07 2020 +0800
+
+    [M]开始将知识库适配移动端
+
+[33mcommit 382616746687ef9a26c3938cf9553fcce0835544[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Thu Aug 13 16:11:57 2020 +0800
+
+    关于我们模块调整
+
+[33mcommit cf05fa31e6c3cddf3d84b58b4ceda83c20b7c389[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Tue Jun 9 16:10:47 2020 +0800
+
+    迁移线动画实现
+
+[33mcommit 1e2407cd45ded2528a941f35936a797a5c6bcc23[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Mon Jun 8 10:23:35 2020 +0800
+
+    组件库组件调整
+
+[33mcommit 3878e1cba45c7be1782a7083340cb624cffe42fe[m
+Author: chenabao <chendb1985@gamil.com>
+Date:   Sat Jun 6 14:09:39 2020 +0800
+
+    代码代码
+
+[33mcommit cf3ef882be40cb03cbbef7be9d9badfdfd04faff[m
+Author: chenabao <chendb1985@gamil.com>
+Date:   Sat Jun 6 14:02:14 2020 +0800
+
+    代码优化
+
+[33mcommit 923c1bb3ab590320f9f2d39f2d782dfb00d0d0de[m
+Author: chenabao <chendb1985@gamil.com>
+Date:   Sat Jun 6 11:33:50 2020 +0800
+
+    调整header
+
+[33mcommit 9a48b927e0f9928736723dc2315823a4c764f730[m
+Author: chenabao <chendb1985@gamil.com>
+Date:   Fri Jun 5 22:57:39 2020 +0800
+
+    代码清理
+
+[33mcommit 7f522499012cf060509fbb45cb62dd6639ba9cc7[m
+Author: chenabao <chendb1985@gamil.com>
+Date:   Fri Jun 5 19:48:41 2020 +0800
+
+    调整菜单判断逻辑
+
+[33mcommit 46ca82a20441576280baf9cc408f5757039bc262[m
+Author: chenabao <chendb1985@gamil.com>
+Date:   Fri Jun 5 19:25:36 2020 +0800
+
+    目录调整
+
+[33mcommit f297993f42adc34cb6831cb4c844a6e6ac54d127[m
+Author: chenabao <chendb1985@gamil.com>
+Date:   Fri Jun 5 19:10:03 2020 +0800
+
+    进行多页面拆分
+
+[33mcommit c2d5a88f3f78f82b655e2cca34891a10c6bae180[m
+Author: chenabao <chendb1985@gamil.com>
+Date:   Fri Jun 5 18:51:59 2020 +0800
+
+    组件目录调整
+
+[33mcommit cf01cdc34c7800b379197733b2c75f82c1eb4b7e[m
+Author: chenabao <chendb1985@gamil.com>
+Date:   Fri Jun 5 18:43:21 2020 +0800
+
+    删除组件动画
+
+[33mcommit d5a9c0e3190fefe9641cefc068dd54888e796107[m
+Author: chenabao <chendb1985@gamil.com>
+Date:   Fri Jun 5 17:32:00 2020 +0800
+
+    删除军泰官网
+
+[33mcommit 4f7d3ee47aa08a96e4e78b5bffaf50cca6520611[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Wed Apr 29 10:19:30 2020 +0800
+
+    3D球体
+
+[33mcommit 4ed6fe937457b1d05e65a0b655e4a8df6aca763f[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Mon Apr 20 16:08:24 2020 +0800
+
+    标题可配置
+
+[33mcommit 4f5f90510ffe4e5af8c42c004e2aed80c470e44d[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Mon Apr 13 20:59:34 2020 +0800
+
+    工程化知识库&所有图片压缩
+
+[33mcommit eb689e0962ad54b57adfe156d623ad165c87c766[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Tue Mar 31 13:33:54 2020 +0800
+
+    知识库工程化
+
+[33mcommit d2022eba8c7eaa1aa34c5f22485d162d4a2f7d75[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Mon Mar 30 19:25:56 2020 +0800
+
+    登陆之后页面reload
+
+[33mcommit c15d3347208db722004a59d0c6abdc1e237c35e0[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Fri Mar 27 19:38:18 2020 +0800
+
+    新增动画组件：多维3D柱状图，词云效果
+
+[33mcommit af911d224c0c77e158934bea7f309b050e8975bf[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Fri Mar 27 13:27:58 2020 +0800
+
+    3多列d柱状图动画组件
+
+[33mcommit 16775b40a71b533984ae377f042854db9b938e2a[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Thu Mar 26 21:39:38 2020 +0800
+
+    修改文章标签功能
+
+[33mcommit b3c3d41097feb81507bb6e5e299398afa83da441[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Thu Mar 26 20:41:32 2020 +0800
+
+    个人中心新增接口及代码逻辑调整、文章详情、收藏接口变更
+
+[33mcommit 70e15e6844d02b660411c1db053ce6be6bdb64d9[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Tue Mar 24 21:46:45 2020 +0800
+
+    文章发布页面:文章操作按钮鼠标移入事件,修改文章标签临时方案
+
+[33mcommit 809671bd5c89e726f40d6eb021f181e32d02da18[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Mon Mar 23 11:15:14 2020 +0800
+
+    代码优化处理
+
+[33mcommit ed9a1cd08a4958ed1ce9b6b121904422f756ae42[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Mon Mar 23 10:51:25 2020 +0800
+
+    6个动画组件传参命名规范、定义传参接口类型
+
+[33mcommit d0add25999812f619859b306e97ca8219308de56[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Fri Mar 20 21:16:06 2020 +0800
+
+    新增动画组件
+
+[33mcommit f2a91468e5e74fca16398946a6d7e5babd9128a6[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Thu Mar 19 19:54:46 2020 +0800
+
+    彩虹加载动画组件
+
+[33mcommit a6cd6f313a2c36b4b5240cdfb2f8a57291e00159[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Thu Mar 19 16:50:23 2020 +0800
+
+    知识库编辑页面样式优化
+
+[33mcommit 0f79f0c45b89a4ea2cf2f3d6aa1b15ce02c0c7b5[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Wed Mar 18 21:56:26 2020 +0800
+
+    知识库引入AnimatedNumber插件&星空动画组件
+
+[33mcommit 307f08493b81509bf0e9b62831f6272df1263e67[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Fri Mar 13 21:36:23 2020 +0800
+
+    球形旋转组件
+
+[33mcommit e1537ebf140fd2133395a99e6a9af9dce4cf05fc[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Fri Mar 13 21:21:57 2020 +0800
+
+    项目升级
+
+[33mcommit d15357793b9696b2609892e9bb8d725c07243f5e[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Fri Mar 13 18:48:44 2020 +0800
+
+    组件库&type声明文件优化
+
+[33mcommit f9e227c4649b538c582ac2670ccac507cd53edb3[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Sun Mar 1 10:46:50 2020 +0800
+
+    写小册功能开发
+
+[33mcommit 298f5a68063efb25f36da90a4cfd252d3f415606[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Fri Feb 14 18:20:52 2020 +0800
+
+    测试bug解决&写小册功能初步搭建
+
+[33mcommit 63f307af0eadcd85693e781873a16e2013100c8e[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Mon Feb 10 18:21:42 2020 +0800
+
+    文章列表页组件位置迁移
+
+[33mcommit 032483b5c2db9b1c0602147690d3af28fff02872[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Fri Feb 7 14:10:30 2020 +0800
+
+    项目自测bug解决&优化
+
+[33mcommit 0a6bbbb495f0ebc80e6b1759a796b9866aeff344[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Tue Jan 21 11:50:06 2020 +0800
+
+    评论刷新&关注功能
+
+[33mcommit dde7eb8d4821e1d817e7845a63eb26939943fd75[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Tue Jan 21 10:09:32 2020 +0800
+
+    查询文章方法优化
+
+[33mcommit f5db22c6933cf6031666b7db2163d818e9758dfd[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Mon Jan 20 17:56:57 2020 +0800
+
+    知识库全面优化
+
+[33mcommit 95bea629749cf72855f388e37710171384874e50[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Mon Jan 13 10:38:32 2020 +0800
+
+    文章详情样式调整
+
+[33mcommit 12a1d86011c53a41aa649e8dad96ce9ffa9a07ba[m
+Author: yingzigo <cywhdx@163.com>
+Date:   Mon Jan 13 10:13:37 2020 +0800
+
+    新建文章功能优化&依赖打包优化
+
+[33mcommit bb9667353eaeae072dc938c339c01cd713f8f2ca[m
+Author: chenabao <chendb1985@gamil.com>
+Date:   Thu Nov 28 13:30:03 2019 +0800
+
+    修改文件乱码问题
+
+[33mcommit 1c77577f490be173718a36c97f38421309323c9f[m
+Author: 钟俊开 <40620462+zhongjunkai@users.noreply.github.com>
+Date:   Mon Nov 18 20:05:48 2019 +0800
+
+    【M] updates
+
+[33mcommit 96cef9102f7a759d6df350f0f24e407e096bbe1f[m
+Author: chenyan <chenyanwust@vip.qq.com>
+Date:   Fri Nov 15 09:08:08 2019 +0800
+
+    接口增加header
+
+[33mcommit 70b12dd6774f61668ca6b1f4b9f106221513ff20[m
+Author: 钟

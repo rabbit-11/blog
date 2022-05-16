@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-启用</title>
+    <desc>Created with Sketch.</desc>
+    <g id="组件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="操作图标-启用" transform="translate(-96.000000, 0.000000)" fill="#03B85A">
+            <g id="分组-22">
+                <g id="icon-启用" transform="translate(96.000000, 0.000000)">
+                    <g id="启用">
+                        <path d="M9.82144,19.64288 C4.39722238,19.64288 0,15.2456576 0,9.82144 C0,4.39722238 4.39722238,0 9.82144,0 C15.2456576,0 19.64288,4.39722238 19.64288,9.82144 C19.64288,15.2456576 15.2456576,19.64288 9.82144,19.64288 Z M8.60513648,11.877804 L5.83671808,9.10938558 L4.91071998,10.0353837 L8.14213743,13.2667193 C8.39783248,13.5223816 8.81235863,13.5223816 9.06805371,13.2667193 L15.4341474,6.90070743 L14.5082312,5.97470933 L8.6051365,11.877804 Z" id="形状" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
