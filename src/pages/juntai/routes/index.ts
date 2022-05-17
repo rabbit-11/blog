@@ -5,16 +5,23 @@ export const appRouter = {
   name: "menu",
   path: "/",
   title: "首页",
-  meta: { title: "面板", single: false },
-  redirect: "/panel",
-  component: () => import("../components/layout/container/index"),
+  meta: { title: "主页", single: false },
+  redirect: "/home",
+  component: () => import("@/pages/juntai/components/layout/container/index"),
   children: [
     {
-      name: "panel",
-      path: "/panel",
-      title: "面板",
-      meta: { title: "面板" },
-      component: (resolve: any) => (<any>require)(["../views/panel/index"], resolve)
+      name: "home",
+      path: "/home",
+      title: "主页",
+      meta: { title: "主页" },
+      component: (resolve: any) => (<any>require)(["../views/home/index"], resolve)
+    },
+    {
+      name: "article",
+      path: "/article",
+      title: "文章",
+      meta: { title: "文章" },
+      component: (resolve: any) => (<any>require)(["../views/article/index"], resolve)
     }
   ]
 };
