@@ -1,9 +1,9 @@
 <article class="home">
     <main>
-        <Timeline v-for="item in pages" :key="id">
-            <TimelineItem>
-                <p class="time">item.time</p>
-                <p class="content">item.title</p>
+        <Timeline>
+            <TimelineItem v-for="item in pages" :key="item.id">
+                <p class="time">{{ item.time }}</p>
+                <p class="content">{{ item.title }}</p>
             </TimelineItem>
         </Timeline>
     </main>

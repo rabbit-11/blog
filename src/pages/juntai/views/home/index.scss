@@ -1,16 +1,23 @@
 .home {
     @include size(100%, 100%);
     
-    ul {
-        margin-top: 10%;
-        @include size(50%, 200px);
-        margin-left: 25%;
+    main {
+        margin-top: 100px;
 
-        li {
-            border: 1px #aaa solid;
-            border-radius: 5px;
-            box-shadow: inset 
-        }
+        ul {
         
+            @include size(50%, 200px);
+            margin-left: 25%;
+    
+            .time {
+                color: #aaa;
+            }
+
+            .content {
+                color: #000;
+            }
+            
+        }
     }
+    
 }

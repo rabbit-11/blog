@@ -7,5 +7,6 @@ import { pageData } from "./pageData";
 })
 export default class Home extends View {
     public pages = pageData;
+    
 
 }
